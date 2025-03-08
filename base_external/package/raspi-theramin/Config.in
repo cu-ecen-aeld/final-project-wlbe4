@@ -1,0 +1,5 @@
+
+config BR2_PACKAGE_RASPI_THERAMIN
+	bool "raspi-theramin"
+	help
+	  Includes the theramin executable
