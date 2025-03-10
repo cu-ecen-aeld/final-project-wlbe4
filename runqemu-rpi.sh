@@ -2,7 +2,7 @@
 #!/bin/sh
 
 KERNEL="buildroot/output/images/Image"
-DTB="buildroot/output/images/bcm2710-rpi-3-b.dtb" 
+DTB="buildroot/output/images/bcm2711-rpi-4-b.dtb" 
 ROOTFS="buildroot/output/images/rootfs.ext2"
 
 if [ ! -e $KERNEL ]
@@ -25,7 +25,7 @@ fi
 
 
 qemu-system-aarch64 \
-	-M raspi3 \
+	-M raspi4 \
 	-kernel $KERNEL \
 	-dtb $DTB \
 	-m 1024 -nographic \
