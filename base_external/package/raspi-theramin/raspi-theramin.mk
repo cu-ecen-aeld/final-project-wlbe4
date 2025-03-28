@@ -4,7 +4,7 @@
 # RASPI-THERAMIN
 #
 ##############################################################
-RASPI_THERAMIN_VERSION = 15dd71b67fd33ec58c8b63d423a14d28305b297a
+RASPI_THERAMIN_VERSION = 9d8cc17d8923fc060e109f10323dd34f28b8c04f
 RASPI_THERAMIN_SITE = git@github.com:wlbe4/raspi-theramin.git
 RASPI_THERAMIN_SITE_METHOD = git
 RASPI_THERAMIN_MODULE_SUBDIRS = tof1020
